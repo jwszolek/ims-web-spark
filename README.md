@@ -1,5 +1,5 @@
 # ims-web-spark
-template in java-spark for building simple web apps
+Template in spark-java (http://sparkjava.com/) for building simple web apps.
 
 
 ## Run it
