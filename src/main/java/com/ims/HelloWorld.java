@@ -19,7 +19,9 @@ public class HelloWorld {
 
     public static void main(String[] args) throws UnknownHostException {
 
-        Spark.get(new Route("/") {
+        logger.debug("application starts");
+
+        Spark.get(new Route("/hello") {
             @Override
             public Object handle(Request request, Response response) {
                 return "Hello world from this Spark App";
